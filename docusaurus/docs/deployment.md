@@ -439,7 +439,7 @@ With this setup Netlify will build and deploy when you push to git or open a pul
 To support `pushState`, make sure to create a `public/_redirects` file with the following rewrite rules:
 
 ```
-/*  /index.html  200
+/*  /index.html  200 ---
 ```
 
 When you build the project, Create React App will place the `public` folder contents into the build output.
